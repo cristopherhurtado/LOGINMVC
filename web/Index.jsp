@@ -17,22 +17,20 @@
     <body>
         <div class="bg"></div>
         <div class="bg-img">
-            <div class="textoLogin">Primer Aplicacion Web JavaEE</div>
+            <div class="textoLogin"></div>
             
-            <form action="#" method="post" class="container" onsubmit="notifyError()">
+            <form action="Validacion" method="post" class="container" >
                     <h1>Login</h1>
                     <label for="user"><b>Usuario</b></label>
                     
                     <input type="text" placeholder="Ingrese usuario" name="user" id="user"/>
                     <label for="pass"><b>Password</b></label>
-                    <input type="password" placeholder="********" name="pass" id="pass"/>
+                    <input type="password" placeholder="***********" name="pass" id="pass"/>
                     <input type="submit" name="Entrar" id="Entrar" value="Entrar"/>
                </form>
-            <footer class="footer">
-                <div>Copyright © Your Decimal Service 2020</div>                                                              
-            </footer>
+          
         </div>
-        <%--<input type="button" value="ENTER" onclick="Saluda()"/>--%>
+        
        
     </body>
 </html>

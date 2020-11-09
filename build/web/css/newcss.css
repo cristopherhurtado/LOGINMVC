@@ -9,7 +9,7 @@ body, html {
 }
 
 .bg-img {
-    background-image: url("/LOGINMVC/img/imglogin.jpg");
+    background-image: url("/LOGINMVC/img/DJI-Spark.png");
     min-height: 692px;
     background-position: center;
     background-repeat: no-repeat;
@@ -20,10 +20,10 @@ body, html {
 .container {
     position: absolute;
     right: 45px;
-    margin: 20px;
+    margin: 90px;
     max-width: 300px;
     padding: 16px;
-    background-color: #ccedc5;
+    background-color: #7B827D;
 }
 
 input[type=text], input[type=password] {
@@ -52,17 +52,3 @@ input[type=text]:focus, input[type=password]:focus {
 .btn{
     opacity: 1;
 }
-
-.footer{
-    text-align: center;
-    color: white;
-    position: relative;
-    top: 600px;
-}
-
-.textoLogin{
-    font-family: Helvetica;
-    color: white;
-    font-size: 45px;
-}
-

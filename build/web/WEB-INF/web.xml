@@ -2,11 +2,27 @@
 <web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
     <servlet>
         <servlet-name>validacion</servlet-name>
-        <servlet-class>LOGINMVC.servlet.validacion</servlet-class>
+        <servlet-class>LOGINMVC.servlet.Validacion</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>consultas</servlet-name>
+        <servlet-class>LOGINMVC.servlet.consultas</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Validacion</servlet-name>
+        <servlet-class>LOGINMVC.servlet.Validacion</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>validacion</servlet-name>
         <url-pattern>/autenticacion</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>consultas</servlet-name>
+        <url-pattern>/consultas</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Validacion</servlet-name>
+        <url-pattern>/Validacion</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
